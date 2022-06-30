@@ -1,0 +1,16 @@
+{
+  "name": "chinesenumber",
+  "version": "1.0.0",
+  "description": "中英文混合数字转换为纯数字",
+  "main": "dist/chineseToNumber.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Code guo",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+  }
+}
