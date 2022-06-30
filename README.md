@@ -6,6 +6,7 @@
 ## 引用
 
 ```js
+npm i zwsz
 const chineseToNumber = require("./dist/chineseToNumber.min");
 ```
 ## 网页使用
