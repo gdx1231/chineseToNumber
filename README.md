@@ -1,16 +1,30 @@
 # 中英文混合数字识别
 
-转换混合的中英文，支持阿拉伯数字、中文数字、会计数字转换为数字。
+转换混合的中英文，支持阿拉伯数字、中文数字、会计数字转换为数字。这个项目是[emp-script-static]<https://github.com/gdx1231/emp-script-static>的一部分，分出来作为独立项目使用。
 
 
-## NPM 引用
+## 引用
 
 ```js
-const chineseToNumber = require("./dist/chineseToNumber");
+const chineseToNumber = require("./dist/chineseToNumber.min");
 ```
-## 网页调用
+## 网页使用
 ```html
-<script src="yourpath/dist/chineseToNumber.js"></script>
+<script src="yourpath/dist/chineseToNumber.min.js"></script>
+
+<input type="text" id="total" placeholder='输入100万试试'>
+<script>
+	document.getElementById('total').onblur = function(){
+		if(this.value.trim() === ""){
+			return;
+		}
+		try {
+			this.value = chineseToNumber(this.value);
+		} catch(e) {
+			alert('非数字')
+		}
+	};
+</script>
 ```
 ## 转换
 ```js
