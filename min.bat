@@ -1,0 +1,2 @@
+set jar=E:\Guolei\com.gdxsoft\emp-script-static\compress\compiler.jar
+java -jar %jar% --js .\dist\chineseToNumber.js --js_output_file .\dist\chineseToNumber.min.js --create_source_map .\dist\chineseToNumber.map
