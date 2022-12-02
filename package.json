@@ -1,6 +1,6 @@
 {
   "name": "zwsz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "转换混合的中英文，支持阿拉伯数字、中文数字、会计数字转换为数字。这个项目是[emp-script-static]https://github.com/gdx1231/emp-script-static的一部分，分出来作为独立项目使用。",
   "main": "dist/chineseToNumber.js",
   "scripts": {
